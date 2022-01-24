@@ -37,7 +37,7 @@
   width: 730px;
   font-size: 102px;
   line-height: 94px;
-  font-weight: bold;
+  font-weight: bolder;
   z-index: 2;
 }
 
@@ -108,7 +108,7 @@
 }
 
 .two_columns__paragraph {
-  margin-top: 0;
+  margin-top: 0px;
   margin-bottom: 30px;
   font-size: 24px;
   line-height: 34px;
@@ -169,7 +169,9 @@
   align-content: center;
   width: 1100px;
   margin: auto;
+  padding: 0;
   z-index: 1;
+  list-style: none;
 }
 
 .table__heading {
@@ -193,13 +195,11 @@
 }
 
 .table__cell_theme_white {
-  /* border: #2f80ed 2px solid; */
   width: 250px;
   margin-right: 0;
   margin-top: 60px;
 }
 
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -297,15 +297,6 @@
 .footer__column_content_copyright {
   justify-content: space-between;
   flex-basis: 911px;
-  border: red 2px solid;
-}
-
-.footer__column_content_info {
-  border: red 2px solid;
-}
-
-.footer__column_content_social {
-  border: red 2px solid;
 }
 
 .footer__column-links {
@@ -353,16 +344,4 @@
   margin: auto 0;
   padding-right: 10px;
   background-size:initial;
-}
-
-.footer__social-icon_icon_facebook {
-  background-image: url(../images/facebook_color_white.svg);
-}
-
-.footer__social-icon_icon_vk {
-  background-image: url(../images/vk_color_white.svg);
-}
-
-.footer__social-icon_icon_instagram {
-  background-image: url(../images/instagram_color_white.svg);
 }
